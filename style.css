@@ -12,7 +12,7 @@
 .player-1 {
   height: 100%;
   width: 50%;
-  border-right: 1px solid black;
+  border-right: 1px solid #000000;
 }
 .player-2 {
   height: 100%;
@@ -26,6 +26,7 @@
   padding-top: 20px;
 }
 .counter {
+  width: 100%;
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -33,19 +34,20 @@
 .score {
   border-radius: 3px;
   width: 10%;
-  background-color: rgb(34, 34, 34);
+  background-color: #222222;
   color:rgb(220, 228, 228);
   font-size: 56px;
   text-align: center;
 }
 i {
   font-size: 300px;
+  margin: auto;
 }
 .dice {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
   height: 60%;
+  width: 50%;
 }
 .button {
   width: 100%;
@@ -67,4 +69,18 @@ i {
   color: rgb(34, 34, 34);
   transform: scale(1.1);
   transition-duration: 0.3s;
+}
+.draw-1 {
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transform: scaleX(-1);
+}
+.draw-2 {
+  padding-top: 45px;
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
 }
